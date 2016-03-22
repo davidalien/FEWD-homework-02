@@ -1,0 +1,219 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  width: 34%;
+  padding: 0 0 10px 10px; /*note the padding around a right floated image */
+  padding-right: 10%;
+}
+
+.alignleft {
+  float: left;
+  width: 66%;
+  padding: 0 10px 10px 0;  /* note the padding around a left floated image */
+  padding-left: 10%;
+} 
+
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+      background: #f0efef;
+     color: #000;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 16px;
+     line-height: 1.2;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background: #033048;
+  position: relative; 
+}
+
+header ul li a{
+  color: #f9e42e;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: ##121212;
+  color: #fff;
+}
+
+
+footer p {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+
+footer h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    color: yellow;
+    padding-top: #f9e42e;
+    padding-left: 0;
+    width: 100%;
+}
+
+.social {
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.facebook {
+  padding-right: 7px;
+}
+
+.twitter {
+  padding-left: 7px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #fff;
+    display: inline-block;
+    padding-left: 10%;
+    letter-spacing: 1px;
+    font-size: 2em;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+nav {
+  display: inline-block;
+
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul {
+  position: absolute;
+  right: 10%;
+  top: 21%;
+}
+
+.signup {
+  background: #f9e42e;
+  width:100%;
+  height: auto;
+  color: #fff;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background: #121211;
+  color: #fff;
+}
+.signup button {
+    display: block;
+    margin: 0 auto;
+    background: #043049;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 7px;
+    font-size: 20px;
+    padding: 8px 47px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.sign-up-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.sidebar-categories li {
+  display: block;
+  margin-left: 0;
+  padding-bottom: 0.2em;
+}
+
+.read {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  font-weight: bold;
+}
+
+article {
+  position: relative;
+  border-bottom: 1px solid black ;
+}
+
+article p {
+  padding-bottom: 1em;
+  color: #121212;
+}
+
+.fill_img {
+  width: 98%;
+}
+
+article p:first-letter {
+  font-size: 3em;
+  float: left;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #033048;
+}
+
+h2 {
+  color: #033048;
+}
+
+h3
+{
+  color: #033048;
+}
+
+.alignright>p {
+  color: #033048;
+}
